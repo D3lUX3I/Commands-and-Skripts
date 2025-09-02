@@ -52,4 +52,16 @@ Alternativ lassen sich die Schritte unter Windows direkt ausführen (setzt WSL v
 
 Beide Skripte rufen intern WSL auf und führen die oben beschriebenen Bash-Schritte aus.
 
+#### ComfyUI starten (Port 8188)
+
+In WSL direkt:
+
+```bash
+cd ~/ComfyUI && source venv/bin/activate && python main.py --listen --port 8188
+```
+
+Unter Windows per Batch:
+
+- `start-comfyui-8188.bat`
+
 
