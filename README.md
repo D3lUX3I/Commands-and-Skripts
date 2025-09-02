@@ -43,3 +43,13 @@ for d in */; do (cd "$d" && git pull); done
 Fertig – alle Nodes sind nun per SSH konfiguriert und auf dem neuesten Stand.
 
 
+#### Windows (.bat) – Ausführung
+
+Alternativ lassen sich die Schritte unter Windows direkt ausführen (setzt WSL voraus):
+
+- SSH-Umstellung: `convert-comfyui-remotes-to-ssh.bat`
+- Updates ziehen: `update-comfyui-custom-nodes.bat`
+
+Beide Skripte rufen intern WSL auf und führen die oben beschriebenen Bash-Schritte aus.
+
+
